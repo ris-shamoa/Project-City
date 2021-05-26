@@ -1,0 +1,555 @@
+body
+{
+	background-color: teal;
+
+}
+#basemain
+{
+	width: 200px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#cac4ae;
+	position: absolute;
+	z-index: -999;
+	
+}
+
+#box1
+{
+	width: 200px;
+	height: 200px;
+ margin-top: 20%;
+ margin-left: auto;
+ margin-right: auto;
+	transform: rotateZ(45deg);
+	z-index: -9999;
+	}
+.sides
+{
+	width: 10px;
+    height: 200px;
+    
+	background-color: #b2ab93;
+}
+
+#frontface
+{ 
+	display: block;
+	position: absolute;
+	top: 5px;
+	margin-left: 200px;
+	transform: skewY(45deg);
+	
+}
+
+#backface
+{
+	display: block;
+	position: absolute;
+	top: 104px;
+	margin-left: 100px;
+	transform: skew(45deg) rotateZ(90deg);
+	
+}
+#greengarden
+{
+	top: 109px;
+	left: 140px;
+	position: absolute;
+    display: block;
+    background-color: #83a75f;
+    width: 70px;
+    height: 90px;
+   
+}
+#road1
+{
+	position: absolute;
+    display: block;
+    background-color: #989899;
+    width: 40px;
+    height: 199px;
+    margin-left: 94px;
+    margin-top: 0px;
+    z-index: -3;
+    
+}
+#road2
+{
+	position: absolute;
+    display: block;
+    background-color: #989899;
+    width: 30px;
+    height: 200px;
+    transform: rotateZ(90deg);
+    margin-left: 85px;
+    margin-top: -12px;
+   z-index: -1;
+}
+#shadowbox1
+{
+	width: 200px;
+	height: 55px;
+	opacity: .27;
+transform: rotateZ(-34deg);
+position: absolute;
+top: -42px;
+left:-9px;
+	background-color: black;
+
+}
+.brownhouse
+{
+      position: absolute;
+ display: block;
+    background-color: #b76538;
+       width: 50px;
+    height: 50px;
+   
+ 
+
+
+}
+.windows
+{
+	    position: absolute;
+    display: block;
+    background-color: black;
+    opacity: 0.35;
+    width: 6px;
+    height: 5px;
+   }
+   .windows2
+{
+	    position: absolute;
+    display: block;
+    background-color: black;
+    opacity: 0.35;
+    width: 6px;
+    height: 5px;
+   }
+
+  #frontwall
+ {
+ 	  transform: skewY(45deg);
+       top: -9.9999px;
+       margin-left: 24.99px;
+       column-count: 4;
+ }
+ #sidewall
+ {
+ 	transform: skewX(45deg);
+ 	top: 14.89px;
+ }
+ #roofbrown
+ {
+ 	    position: absolute;
+    display: block;
+    background-color: #444;
+    width: 43px;
+    height: 43px;
+    top: -35px;
+    left: -25px;
+    border:3.44px solid #313131;
+ }
+ #rooftopbox1
+ {
+ 	width: 20px;
+ 	height: 14px;
+ 	background-color:#494949;
+ 	top: 20px;
+ 	left: 15px;
+ 	position: absolute;
+ }
+ #rooftopbox1-frontface
+ {
+ 	width: 14px;
+ 	height:3px;
+ 	background-color: #323232;
+ 	position:absolute;
+ 	top: 6.9px;
+  left: 14px;
+ 	transform: skewY(50deg) rotateZ(90deg);
+ }
+ #rooftopbox1-sideface
+ {
+ 	width: 19px;
+ 	height:3px;
+ 	background-color: #555;
+ 	position:absolute;
+ 	top: 14px;
+  left: 2px;
+ 	transform: skewX(50deg) rotateZ(0deg);
+ }
+ #rooftopbox2
+ {
+ 	width: 15px;
+ 	height: 10px;
+ 	background-color: #494949;
+ 	position: absolute;
+ 	top: 5px;
+ 	left: 12px;
+ }
+ #rooftopbox2-frontface
+ {
+ 	width: 10px;
+ 	height: 3px;
+ 	background-color: #323232;
+ 	position: absolute;
+ 	top: 5px;
+ 	left: 10px;
+ 	transform: skewY(50deg) rotateZ(90deg);
+ }
+  #rooftopbox2-sideface
+ {
+ 	width: 14px;
+ 	height:3px;
+ 	background-color: #555;
+ 	position:absolute;
+ 	top: 10px;
+  left: 1px;
+ 	transform: skewX(50deg) rotateZ(0deg);
+ }
+ #shadowcutter1
+ {
+ 	width: 200px;
+ 	height: 100px;
+ 	background-color:transparent;
+ 	opacity: .8;
+ 	position: absolute;
+ 	left: 50px;
+ 	overflow: hidden;
+ }
+ #wallfront
+ {
+ 	background-color: #6389a8;
+ 	width: 150px;
+ 	height: 80px;
+ 	transform: skewY(45deg);
+   position: absolute;
+   top: 38.7px;
+   right: 116px;
+ }
+ #wallside
+ {background-color: #6389a8;
+ 	width:60px;
+ 	height:  150px;
+ 	transform: skewX(45deg);
+   position: absolute;
+   top: 43px;
+   right: 190.39999px;
+
+ }
+ .strip
+ {
+ 	width: 2px;
+ 	background-color: black;
+ 	opacity: .3;
+ 	height: 78px;
+ 	position: absolute;
+ 	top: 1px;
+ }
+ .strip2
+ {
+ 	width: 60px;
+ 	background-color: black;
+ 	opacity: .3;
+ 	height: 2px;
+ 	position: absolute;
+ }
+ #bluerooftop
+ {
+ 	width: 52px;
+    height: 72px;
+    background-color: #444;
+    border:4px solid #313131;
+    position: absolute;
+   top: -35.99px;
+   left: -124.99px;
+ }
+ .towertop
+ {
+ 	width: 50px;
+ 	height: 2px;
+ 	position: absolute;
+ 	background-color: #333;
+ 	top: 0px;
+ 	right: 300px;
+ 	transform: rotateZ(46deg);
+ }
+ #bluerooftop1
+ {
+ 	width: 20px;
+ 	height: 20px;
+ 	background-color: #494949;
+ 	position: absolute;
+ 	left:-100px;
+ 	top: 8px; 
+ }
+ #bluefront1
+ {
+ 	width: 3px;
+ 	height: 20px;
+ 	transform: skewY(45deg) ;
+ 	background-color: #323232;
+ 	position: absolute;
+ 	top: 2px;
+ 	left: 20px;
+ }
+ #blueside1
+ {
+ 	width: 20px;
+ 	height: 3px;
+ 	transform: skewX(45deg);
+ 	background-color: #555;
+ 	position: absolute;
+ 	top:20px;
+ 	left: 1px;
+ }
+ #bluerooftop2
+ {
+ 	width: 30px;
+ 	height: 20px;
+ 	background-color: #494949;
+ 	position: absolute;
+ 	left:-110px;
+ 	top: -27px; 
+
+ }
+ #bluefront2
+ {
+ 	width: 3px;
+ 	height: 20px;
+ 	transform: skewY(45deg) ;
+ 	background-color: #323232;
+ 	position: absolute;
+ 	top: 2px;
+ 	left: 30px;
+ }
+ #blueside2
+ {
+ 	width: 30px;
+ 	height: 3px;
+ 	transform: skewX(45deg);
+ 	background-color: #555;
+ 	position: absolute;
+ 	top:20px;
+ 	left: 1px;
+ }
+ #shadowboxcutter2
+ {
+ 	width: 200px;
+ 	height: 200px;
+ 	background-color: transparent;
+ 	position: absolute;
+ 	opacity: .3;
+ 	overflow:hidden;
+ }
+ #shadowbox2
+ {
+ 	width: 210px;
+ 	height: 80px;
+ 	background-color: black;
+ 	position: absolute;
+ 	top: 62px;
+ 	left: 42px;
+ 	transform: rotateZ(-34deg);
+ }
+ #vehicle1
+ {
+ 	width: 8px;
+ 	margin-left: auto;margin-right: auto;
+ 	height: 15px;
+ 	background-color: #c03;
+ 	box-shadow: -2px -2px 0px #343434; 
+ 	animation:mover 7.7s;
+ 	animation-timing-function: ease-in;
+ 	animation-iteration-count: infinite;
+ }
+ #vehicle2
+ {
+ 	width: 8px;
+ 	margin-left: 3px;
+ 	height: 15px;
+ 	background-color: #7d7d7d;
+ 	box-shadow: 2px -2px 0px #343434; 
+ 	animation:mover 4s;
+ 	animation-iteration-count: infinite;
+ 	animation-timing-function: linear;
+ 	animation-direction: reverse;
+ 	position: absolute;
+ 	top: 0px;
+ 	left: 100px;
+
+ 	
+ }
+ #vehicle3
+ {
+ 	position: absolute;
+ 	width: 8px;
+ 	margin-left:20px;
+ 	height: 15px;
+ 	background-color: #2d6398;
+ 	box-shadow: 2px 2px 0px #343434; 
+ 	animation-name: mover;
+ 	animation-duration: 5s;
+ 	animation-delay: 1s;
+ 	top: 0px;
+ 	left: 100px;
+ 	animation-iteration-count: infinite;
+ 	animation-timing-function: ease-in-out;
+
+ }
+ @keyframes mover{
+ 	from{
+ 		margin-top: 0px;
+ 	}
+ 	to{
+ 		margin-top: 180px;
+ 	}
+ }
+ .wood
+ {
+ 	width: 4px;
+ 	height: 20px;
+ 	border-radius: 0px 0px 2px 2px;
+ 	background-color: #462512;
+ 	position: absolute;
+ 	transform: rotateZ(-47deg);
+
+ }
+ #leaves
+ {
+ 	position: absolute;
+ 	    width: 50px;
+ 	    left: -10px;
+    height: 60px;
+    background-color: #47733c;
+    border-radius: 10px;
+ }
+ #frontleave
+ {
+ 	width: 5px;
+ 	height: 50px;
+ 	background-color: #3c6a30;
+ 	position: absolute;
+ 	top: 7px;
+ 	left: 48px;
+ 	border-radius: 0px 10px 0px 0px;
+
+ 	transform: skewY(40deg);
+
+ }
+ #sideleave
+ {
+ 	width: 47px;
+ 	height: 5px;
+ 	background-color: #3c6a30;
+ 	position: absolute;
+ 	top: 56px;
+ 	left: 5px;
+ 	border-radius: 0px 0px 0px 10px;
+
+ 	transform: skewX(40deg) rotateZ(-4deg);
+
+ }
+ #fountain
+ {
+ 	width: 60px;
+ 	height: 70px;
+ 	position: absolute;
+ 	left: 137px;
+ }
+ #water
+ {
+ 	background-color: #6389a8;
+ 	position: absolute;
+ 	left: 5px;
+ 	top: 20px;
+    width: 40px;
+    height: 25px;
+    border:3px solid #b2ab93;
+ }
+ .fountain2
+ {
+  height: 4px;
+  background-color: #92b5d2;
+  position: absolute;
+  transform: rotateZ(40deg);
+  border-radius: 10px;
+
+ }
+ #f1{
+ 	
+ }
+/* #trick
+ {
+ 	width: 40px;
+ 	height: 10px;
+ 	position: absolute;
+ 	top: 15px;
+ 	background-color: red;
+ 	
+ }*/
+ #slider1
+ {
+ 	width: 2px;
+ 	height: 1px;
+ 	transform: rotateZ(-40deg);
+ 	
+ 	animation-name: foun;
+ 	animation-duration: 2s;
+    animation-direction: alternate;
+ 	animation-iteration-count: infinite;
+ 	}
+ 	#slider2
+ 	{
+ 	width: 2px;
+ 	height: 1px;
+ 	transform: rotateZ(-40deg);
+ 	/*background-color: red;*/
+ 	animation-name: foun;
+ 	animation-duration: 2s;
+ animation-direction: alternate;
+ 		animation-iteration-count: infinite;
+ 		animation-delay: 1s;
+ 	}
+ 	#slider3
+ 	{
+ 	width: 2px;
+ 	height: 1px;
+ 	transform: rotateZ(-40deg);
+ 	/*background-color: red;*/
+ 	animation-name: foun;
+ 	animation-duration: 2s;
+ animation-direction: alternate;
+ 		animation-iteration-count: infinite;
+ 		animation-delay: 1.5s;
+ 	}
+ 	#slider4{
+ 	width: 2px;
+ 	height: 1px;
+ 	transform: rotateZ(-40deg);
+ 	/*background-color: red;*/
+ 	animation-name: foun;
+ 	animation-duration: 2s;
+ animation-direction: alternate;
+ 		animation-iteration-count: infinite;
+ 		animation-delay: 2s;	
+ 	}
+ @keyframes foun
+ {
+
+ 	from{
+ 		   width: 0px;
+ 		   
+ 		   margin-right: 0px;
+ 		
+ 		 	}
+ 	to{
+ 	 		width:86px;
+            margin-right: -76px;
+ 	 				
+ 	}
+ }
